@@ -1,0 +1,39 @@
+Java notes-
+	JDK - Java Developer Kit
+		*installing default JDK on ubuntu: sudo apt-get install default-jdk
+	JRE - Java Running Enviorment
+		*installing default JRE on ubuntu: sudo apt-get install default-jre
+	Eclipse - Common used IDE(integrated development enviorment) for Java
+
+Java has main that execute a given function- same as C, 
+	*System.out. is used to output to std out
+
+	inside class is method
+		class name is known as identifier
+
+	content inside a class is known as a member
+	Java is an object oriatned programing lang
+	object - instance of a class
+	statement - tells the computer something
+
+
+public 				 						 class ft_HelloWorld {
+//^ access modifier(what code can use this) |//^ identifier
+
+	public static void main(			String[] args) { //methods
+		 //^ no instances is needed |//^ arguments
+	}
+	String x = new String("hello"); //property
+}
+
+
+Home folder contains two folder
+	bin
+		contains all of the *.class
+	src
+		contains all of the *.java
+
+System.out.printf("%-15s", s)
+					^# of spaces after the string
+System.out.printf("%15s", s)
+					^# of spaces before the string
